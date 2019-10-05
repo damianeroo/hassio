@@ -20,14 +20,14 @@
     "ssl:ro",
     "config:rw"
   ],
-  "name": "ESPHome",
+  "name": "ESPHome-MOD",
   "options": {},
   "panel_icon": "mdi:chip",
   "ports": {
-    "6052/tcp": null
+    "6053/tcp": null
   },
   "ports_description": {
-    "6052/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "6053/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "schema": {
     "certfile": "str?",
@@ -39,9 +39,9 @@
     "status_use_ping": "bool?",
     "streamer_mode": "bool?"
   },
-  "slug": "esphome",
+  "slug": "esphome-mod",
   "startup": "application",
   "url": "https://esphome.io/",
   "version": "1.13.6",
-  "webui": "http://[HOST]:[PORT:6052]"
+  "webui": "http://[HOST]:[PORT:6053]"
 }
